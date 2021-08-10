@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Election</title>
+
+    <!-- Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+
+  </head>
+  <body>
+    <div class="container" style="width: 650px;">
+      <div class="row">
+        <div class="col-lg-12">
+          <h1 class="text-center">Info</h1>
+          <div class="alert alert-secondary">ETH Address: <span id='ethAddr'></span> </div>
+          <div class='alert alert-secondary'>CBK Balance: <span id='ethBalance'></span></div>
+          <div class='alert alert-secondary'>Polyjuice Address: <span id='polyAddr'></span> </div>
+          <div class='alert alert-secondary'>Deposit Address: <span id='depositAddr' class='text-break'></span> </div>
+          <div class='alert alert-secondary'>Token Contract Address: <span id='tokenAddr'></span> </div>
+          <div class='alert alert-secondary'>Token Balance: <span id='tokenBalance'></span> </div>
+          <div>
+            <a href='https://force-bridge-test.ckbapp.dev/bridge/Ethereum/Nervos' class='btn btn-primary' target='_blank'>Force Bidge</a>
+          </div>
+
+          <hr/>
+        </div>
+      </div>
+    </div>
+
+    <script src="dist/main.js"></script>
+  </body>
+</html>
